@@ -37,6 +37,10 @@
 # print(lis)
 # # print(b)
 import random
-word='apple'
-# b=random.randrange(0,len(word))
-print(word[random.randrange(0,len(word))])
+import numpy
+import numpy as np
+
+options=['a','b','c']
+a=np.array(options)
+print(numpy.random.choice(a))
+
