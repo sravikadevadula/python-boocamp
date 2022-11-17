@@ -1,6 +1,8 @@
 import random
 import numpy as np
-
+#R=Rock
+#P=Paper
+#S=Scissors
 user_vs_machine = 1
 user_vs_user = 2
 
