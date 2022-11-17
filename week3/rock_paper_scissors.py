@@ -1,11 +1,6 @@
 import random
 import numpy as np
 
-# R = 'Rock'
-# P = 'paper'
-# S = 'Scissors'
-# option = [R, P, S]
-# options = np.array(option)
 user_vs_machine = 1
 user_vs_user = 2
 
@@ -16,8 +11,6 @@ def random_option():
 
 
 def game_with_user():
-    # score_user1 = 0
-    # score_user2 = 0
     lis_score = [0, 0]
     while max(lis_score) < 3:
         user_1 = input('choose among for user1 R,P,S:')
@@ -46,8 +39,6 @@ def game_with_user():
 
 
 def game_with_machine():
-    # score_user = 1
-    # score_machine = 1
     lis1_scores = [0, 0]
     while max(lis1_scores) < 3:
         user = input('choose among R,P,S:')
@@ -70,7 +61,6 @@ def game_with_machine():
             continue
         else:
             print('invalid input!')
-        # lis1_scores = [score_user, score_machine]
         if lis1_scores[0] > lis1_scores[1]:
             print('winner is user,', lis1_scores[0])
         else:
