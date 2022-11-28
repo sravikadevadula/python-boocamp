@@ -29,7 +29,7 @@ def func(n):
 				# Remember the time complexity of the sum and range methods
 				total += sum(range(n))
 		return total
-# time complexity = O(log n)
+# time complexity = O(n*log n)
 # 5
 def func(n):
 	for i in range(2,n):
